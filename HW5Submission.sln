@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserAccountCreation", "UserAccountCreation\UserAccountCreation\UserAccountCreation.csproj", "{2F88A468-7901-470D-80E4-A78B7D7DCBFD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F943702A-B0B4-4EEE-ABC3-8BCB92A964AA} = {F943702A-B0B4-4EEE-ABC3-8BCB92A964AA}
+		{6355EF83-E7E4-49CE-9E35-7F6A0BDD83E0} = {6355EF83-E7E4-49CE-9E35-7F6A0BDD83E0}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TryItPage", "UserAccountCreation\TryItPage\", "{7454FF7B-08C8-4561-82D8-824F9B20CF76}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59553"
+		Debug.AspNetCompiler.PhysicalPath = "UserAccountCreation\TryItPage\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59553\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59553"
+		Release.AspNetCompiler.PhysicalPath = "UserAccountCreation\TryItPage\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59553\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59553"
+		SlnRelativePath = "UserAccountCreation\TryItPage\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{DE1EBC3E-CC9A-4ECE-9B2D-39780BE38B20} = {DE1EBC3E-CC9A-4ECE-9B2D-39780BE38B20}
+		{2F88A468-7901-470D-80E4-A78B7D7DCBFD} = {2F88A468-7901-470D-80E4-A78B7D7DCBFD}
+		{983A747A-6BD5-4D14-9AF0-CE33BA7EF95A} = {983A747A-6BD5-4D14-9AF0-CE33BA7EF95A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generateUserId", "generateUserId\generateUserId\generateUserId.csproj", "{F943702A-B0B4-4EEE-ABC3-8BCB92A964AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptionDecryption", "EncryptionDecryption\EncryptionDecryption\EncryptionDecryption.csproj", "{6355EF83-E7E4-49CE-9E35-7F6A0BDD83E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecastService", "WeatherForecastService\WeatherForecastService.csproj", "{983A747A-6BD5-4D14-9AF0-CE33BA7EF95A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatLngAndZipConverter", "LatLngAndZipConverter\LatLngAndZipConverter.csproj", "{3F40D249-A770-4B50-B951-4A9E07FE5E3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipCodeLatLngConverter", "LatLngToZipConverter\ZipCodeLatLngConverter.csproj", "{1F8D78DD-13F5-446C-8FAC-8DF6C9A5AFB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarService", "SolarService\SolarService.csproj", "{DE1EBC3E-CC9A-4ECE-9B2D-39780BE38B20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F88A468-7901-470D-80E4-A78B7D7DCBFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F88A468-7901-470D-80E4-A78B7D7DCBFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F88A468-7901-470D-80E4-A78B7D7DCBFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F88A468-7901-470D-80E4-A78B7D7DCBFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7454FF7B-08C8-4561-82D8-824F9B20CF76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7454FF7B-08C8-4561-82D8-824F9B20CF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7454FF7B-08C8-4561-82D8-824F9B20CF76}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7454FF7B-08C8-4561-82D8-824F9B20CF76}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F943702A-B0B4-4EEE-ABC3-8BCB92A964AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F943702A-B0B4-4EEE-ABC3-8BCB92A964AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F943702A-B0B4-4EEE-ABC3-8BCB92A964AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F943702A-B0B4-4EEE-ABC3-8BCB92A964AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6355EF83-E7E4-49CE-9E35-7F6A0BDD83E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6355EF83-E7E4-49CE-9E35-7F6A0BDD83E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6355EF83-E7E4-49CE-9E35-7F6A0BDD83E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6355EF83-E7E4-49CE-9E35-7F6A0BDD83E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{983A747A-6BD5-4D14-9AF0-CE33BA7EF95A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{983A747A-6BD5-4D14-9AF0-CE33BA7EF95A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{983A747A-6BD5-4D14-9AF0-CE33BA7EF95A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{983A747A-6BD5-4D14-9AF0-CE33BA7EF95A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F40D249-A770-4B50-B951-4A9E07FE5E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F40D249-A770-4B50-B951-4A9E07FE5E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F40D249-A770-4B50-B951-4A9E07FE5E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F40D249-A770-4B50-B951-4A9E07FE5E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F8D78DD-13F5-446C-8FAC-8DF6C9A5AFB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F8D78DD-13F5-446C-8FAC-8DF6C9A5AFB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F8D78DD-13F5-446C-8FAC-8DF6C9A5AFB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F8D78DD-13F5-446C-8FAC-8DF6C9A5AFB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE1EBC3E-CC9A-4ECE-9B2D-39780BE38B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE1EBC3E-CC9A-4ECE-9B2D-39780BE38B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE1EBC3E-CC9A-4ECE-9B2D-39780BE38B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE1EBC3E-CC9A-4ECE-9B2D-39780BE38B20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
